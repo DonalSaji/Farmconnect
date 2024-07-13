@@ -214,69 +214,7 @@ session_start();
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="latest">
-              <figure><img src="images/mushroom2.jpg" alt="#" /></figure>
-              <span
-                >01<br />
-                May 2024</span
-              >
-              <div class="nostrud">
-                <h3>Magical Mushroom</h3>
-                <p>
-                  Scaling up Ganoderma lucidum cultivation will benefit
-                  farmers.Ganoderma lucidum has over 400 chemical constituents
-                  with medical properties
-                </p>
-                <a class="read_more" href="blog.php">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="latest box_desho">
-              <figure><img src="images/news2.jpg" alt="#" /></figure>
-              <span
-                >01<br />
-                May 2024</span
-              >
-              <div class="nostrud">
-                <h3>
-                  Government Encourages Farmers to Adopt Economically
-                  Sustainable Agriculture Strategies
-                </h3>
-                <p>
-                  The government in Punjab is devising schemes and strategies to
-                  encourage farmers to indulge in more economically and
-                  environmentally viable agricultural practices
-                </p>
-                <a class="read_more" href="blog.php">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="latest">
-              <figure><img src="images/news3.jpg" alt="#" /></figure>
-              <span
-                >01<br />
-                May 2024</span
-              >
-              <div class="nostrud">
-                <h3>
-                  Top 5 Profitable Agri Businesses to Start in Your Backyard
-                  With Full Government Support
-                </h3>
-                <p>
-                  Before starting a backyard business, you will have to check
-                  with your state and local zoning regulations to make sure it’s
-                  allowed in your region. In this article, we will tell you
-                  about the 10 most profitable backyard business ideas.
-                </p>
-                <a class="read_more" href="blog.php">Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        <?php include 'blogg.php'; ?>
       </div>
     </div>
     <!-- end news -->

@@ -110,7 +110,7 @@ if(!isset($_SESSION['user'])) {
                     </li>
 
 
-                   <!--  <li class="treeview <?php if( ($cur_page == 'order.php') ) {echo 'active';} ?>">
+                  <!--  <li class="treeview <?php if( ($cur_page == 'order.php') ) {echo 'active';} ?>">
                         <a href="order.php">
                             <i class="fa fa-sticky-note"></i> <span>Order Management</span>
                         </a>
@@ -121,6 +121,15 @@ if(!isset($_SESSION['user'])) {
 			            <i class="fa fa-user-plus"></i> <span>Registered Customer</span>
 			          </a>
 			        </li>
+			        
+
+			        <li class="treeview <?php if( ($cur_page == 'blog-details.php') ) {echo 'active';} ?>">
+                        <a href="blog-details.php">
+                            <i class="fa fa-sticky-note"></i> <span>Blog Details</span>
+                        </a>
+                    </li> 
+
+
 			        <li class="treeview <?php if( ($cur_page == 'subscriber.php')||($cur_page == 'subscriber.php') ) {echo 'active';} ?>">
 			          <a href="subscriber.php">
 			            <i class="fa fa-hand-o-right"></i> <span>Subscriber</span>

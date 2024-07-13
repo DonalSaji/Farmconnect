@@ -29,6 +29,10 @@ $statement = $pdo->prepare("SELECT * FROM subscriber WHERE subs_active='1'");
 $statement->execute();
 $total_subscriber = $statement->rowCount();
 
+$statement = $pdo->prepare("SELECT * FROM blog_posts");
+$statement->execute();
+$total_blog= $statement->rowCount();
+
 // $statement = $pdo->prepare("SELECT * FROM tbl_shipping_cost");
 // $statement->execute();
 // $available_shipping = $statement->rowCount();
@@ -142,6 +146,20 @@ $total_subscriber = $statement->rowCount();
 				  
 				</div>
 			  </div>
+
+			  <div class="col-lg-3 col-xs-6">
+              <div class="small-box bg-maroon">
+                <div class="inner">
+                  <h3><?php echo $total_blog; ?></h3>
+
+                  <p>Blog Count</p>
+                </div>
+                <div class="icon">
+                  <a href="blog-details.php"><i class="ionicons ion-clipboard"></i></a>
+                </div>
+                
+              </div>
+            </div>
 
 			  
 			  <div class="col-lg-3 col-xs-6">

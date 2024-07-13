@@ -1,0 +1,13 @@
+to import the database 
+
+1.go to xammp control panel
+
+2.start apache & mysql and click on "admin" button it will redirect you to phpmyadmin interface
+
+3.click on Databases and you will see under the "create database" option there is a textbox called "Database name"
+
+4.type "complete-blog-php" as Database name and click on Create.
+
+5. Now select the newly created databse and click on import and choose the file "complete-blog-php.sql" to import sql scripts to the database.
+
+ 

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FarmConnect shop</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div id="navbar" class="navbar">
+                   <img src="images/logo.jpg" width="90px">
+            
+            <ul class="ul-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Account</a></li>
+                <li>
+                    <img src="images\cart.png" width="30px" height="30px">
+                </li>
+            </ul>
+          </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Welcome to <br></h1><br>
+                <h1> FarmConnect</h1>
+                <a href="index.html" class="btn">Explore now</a>
+            </div>
+            <div class="col-2">
+               <img src="images/product.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="categories">
+        <div class="smallcon">
+         <div class="row">
+             <div class="col-3">
+                <img src="images/categories_img_01.jpg" alt="">
+                <h2>Fruits & Vegitables</h2>
+             </div>
+            <div class="col-3">
+                <img src="images/fert.jpg" height="310px">
+                <h2>seed & Fertilizers</h2>
+            </div>
+            <div class="col-3">
+                <img src="images/m2.jpg" height="310px">
+                <h2>Land & Machinery</h2>
+            </div>
+         </div>
+        </div>
+    </div>
+    
+</div>
+<div class="smallcon">
+    <h2>Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/img-pro-01.jpg" >
+            <h4>Carrot</h4>
+            <p>₹50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/service1.jpg" >
+            <h4>Chilly</h4>
+            <p>₹35.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/onion.jpg" width="370px" height="225px">
+            <h4>Onion</h4>
+            <p>₹60.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/img-pro-02.jpg" >
+            <h4>Tomato</h4>
+            <p>₹40.00</p>
+        </div>
+    </div>
+    <div class="smallcon">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/f1.jpg" height="225px">
+                <h4>Vigoro</h4>
+                <p>₹50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/f2.jpeg" >
+                <h4>Ironite</h4>
+                <p>₹135.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/f3.jpg" width="370px" height="225px">
+                <h4>Green view</h4>
+                <p>₹300.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/f4.jpg" >
+                <h4>Rapid Grow</h4>
+                <p>₹240.00</p>
+            </div>
+        </div>
+</div>
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+</body>
+</html>

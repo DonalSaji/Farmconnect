@@ -1,0 +1,226 @@
+
+ .recentlyadded1 h2 {
+	display: block;
+	font-weight: normal;
+	margin: 0;
+	padding: 40px 0;
+	font-size: 24px;
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid #EEEEEE;
+}
+ .recentlyadded1 .product1,  .product1 .product1-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 0 0 0;
+}
+ .recentlyadded1 .product1 .product1,  .product1 .product1-wrapper .product1 {
+	display: block;
+	overflow: hidden;
+	text-decoration: none;
+	width: 25%;
+	padding-bottom: 60px;
+}
+ .recentlyadded1 .product1 .product1 img,  .product1 .product1-wrapper .product1 img {
+	transform: scale(1);
+	transition: transform 1s;
+}
+ .recentlyadded1 .product1 .product1 .name,  .product1 .product1-wrapper .product1 .name {
+	display: block;
+	color: #555555;
+	padding: 20px 0 2px 0;
+}
+ .recentlyadded1 .product1 .product1 .price1,  .product1 .product1-wrapper .product1 .price1 {
+	display: block;
+	color: #999999;
+}
+ .recentlyadded1 .product1 .product1 .rrp1,  .product1 .product1-wrapper .product1 .rrp1 {
+	color: #BBBBBB;
+	text-decoration: line-through;
+}
+ .recentlyadded1 .product1 .product1:hover img,  .product1 .product1-wrapper .product1:hover img {
+	transform: scale(1.05);
+	transition: transform 1s;
+}
+ .recentlyadded1 .product1 .product1:hover .name,  .product1 .product1-wrapper .product1:hover .name {
+	text-decoration: underline;
+}
+  .product1 {
+	display: flex;
+	padding: 40px 0;
+}
+  .product1  div {
+	padding-left: 15px;
+}
+  .product1 h1 {
+	font-size: 34px;
+	font-weight: normal;
+	margin: 0;
+	padding: 20px 0 10px 0;
+}
+  .product1 .price1 {
+	display: block;
+	font-size: 22px;
+	color: #999999;
+}
+  .product1 .rrp1 {
+	color: #BBBBBB;
+	text-decoration: line-through;
+	font-size: 22px;
+	padding-left: 5px;
+}
+  .product1 form {
+	display: flex;
+	flex-flow: column;
+	margin: 40px 0;
+}
+  .product1 form input[type="number"] {
+	width: 400px;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	color: #555555;
+	border-radius: 5px;
+}
+  .product1 form input[type="submit"] {
+	background: #4e5c70;
+	border: 0;
+	color: #FFFFFF;
+	width: 400px;
+	padding: 12px 0;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+}
+  .product1 form input[type="submit"]:hover {
+	background: #434f61;
+}
+  .product1 h1 {
+	display: block;
+	font-weight: normal;
+	margin: 0;
+	padding: 40px 0;
+	font-size: 24px;
+	text-align: center;
+	width: 100%;
+}
+  .product1 .buttons {
+	text-align: right;
+	padding-bottom: 40px;
+}
+  .product1 .buttons a {
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 5px;
+	padding: 12px 20px;
+	border: 0;
+	background: #4e5c70;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+  .product1 .buttons a:hover {
+	background: #434f61;
+}
+ .cart h1 {
+	display: block;
+	font-weight: normal;
+	margin: 0;
+	padding: 40px 0;
+	font-size: 24px;
+	text-align: center;
+	width: 100%;
+}
+ .cart table {
+	width: 100%;
+}
+ .cart table thead td {
+	padding: 30px 0;
+	border-bottom: 1px solid #EEEEEE;
+}
+ .cart table thead td:last-child {
+	text-align: right;
+}
+ .cart table tbody td {
+	padding: 20px 0;
+	border-bottom: 1px solid #EEEEEE;
+}
+ .cart table tbody td:last-child {
+	text-align: right;
+}
+ .cart table .img {
+	width: 80px;
+}
+
+ .cart table {
+	color: #777777;
+	font-size: 12px;
+	padding-top: 3px;
+}
+
+ .cart table .remove:hover {
+	text-decoration: underline;
+    
+}
+ .cart table .price1 {
+	color: #999999;
+}
+ .cart table a {
+	text-decoration: none;
+	color: #555555;
+}
+ .cart table input[type="number"] {
+	width: 68px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	color: #555555;
+	border-radius: 5px;
+}
+ .cart .subtotal {
+	text-align: right;
+	padding: 40px 0;
+}
+ .cart .subtotal .text {
+	padding-right: 40px;
+	font-size: 18px;
+}
+ .cart .subtotal .price1 {
+	font-size: 18px;
+	color: #999999;
+}
+ .cart .buttons {
+	text-align: right;
+	padding-bottom: 40px;
+}
+ .cart .buttons input[type="submit"] {
+	margin-left: 5px;
+	padding: 12px 20px;
+	border: 0;
+	background: #4e5c70;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 5px;
+}
+ .cart .buttons input[type="submit"]:hover {
+	background: #434f61;
+}
+ .placeorder h1 {
+	display: block;
+	font-weight: normal;
+	margin: 0;
+	padding: 40px 0;
+	font-size: 24px;
+	text-align: center;
+	width: 100%;
+}
+ .placeorder p {
+	text-align: center;
+	
+}
